@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, sans-serif;
+  background-color: #000;
+  /* background-color: rgb(65, 103, 62); */
+  /* background: linear-gradient(
+    90deg,
+    rgba(65, 103, 62, 1) 0%,
+    rgba(92, 44, 40, 1) 50%,
+    rgba(102, 80, 48, 1) 100%
+  );  */
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h4,
+p,
+i {
+  color: #ffffff;
+}
+
+header h1 {
+  font-size: 3.125rem;
+  margin: 0;
+  text-align: center;
+  padding: 7px;
+  font-weight: 500;
+  font-size: 3.688rem;
+}
+
+.header_iguana img {
+  width: 100%;
+}
+
+h4{
+  font-weight: lighter !important;
+}
+
+/* seccion texto,iconos e imagenes */
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+.column {
+  float: left;
+  flex: 33.33%;
+  padding: 76px 0px 75px 150px !important;
+  justify-content: flex-end;
+}
+
+.column2 {
+  float: left;
+  flex: 33.33%;
+  padding: 45px 150px 66px 0px;
+  justify-content: flex-end;
+}
+
+.rowSpecial{
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+}
+
+.row2 {
+  display: flex;
+  justify-content: center;
+}
+
+.column3 {
+ padding: 73px 8px 73px 150px;
+}
+.column4 {
+  padding: 73px 8px 73px 8px;
+ }
+ .column5 {
+  padding: 73px 150px 73px 8px;
+ }
+.i-gal1 .i-gal2 .i-gal3 {
+
+  width: 290px;
+  height: 185px;
+}
+
+
+
+
+.texto {
+  padding-left: 100px;
+
+  padding-right: 100px;
+
+  padding: 60px;
+}
+
+.texto p {
+  padding-right: 100px;
+}
+
+#iguanaPensativa {
+  width: 80%;
+  margin-left: 10%;
+}
+
+/* seccion texto,iconos e imagenes */
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+section h2 {
+  padding: 30px;
+  text-align: center;
+  background: #1e1a13 0% 0% no-repeat padding-box;
+  opacity: 0.94;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.icons_section {
+  padding: 25px;
+  text-align: center;
+  background: #1e1a13 0% 0% no-repeat padding-box;
+  opacity: 0.94;
+}
+
+.icons_section p {
+  font-size: 1.563rem;
+}
+
+.icons_section i {
+  font-size: 5rem;
+}
+
+.image_section {
+  padding: 40px;
+}
+
+.image_section img {
+  height: 200px;
+}
+
+/* footer */
+
+footer {
+  padding: 30px;
+  text-align: center;
+  background: #1e1a13 0% 0% no-repeat padding-box;
+  opacity: 0.94;
+  font-size: 1.25rem;
+}
+
